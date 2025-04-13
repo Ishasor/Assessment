@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-image: linear-gradient(to right, rgba(172, 129, 183, 0), rgb(52, 204, 247));
+      padding: 20px;
+      border-radius: 8px;
+      border: 8px double  black;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .contact-details {
+      width: 48%;
+    }
+    .contact-details p {
+      margin: 5px 0;
+    }
+    .contact-details i {
+      margin-right: 5px;
+      color: rgb(183, 116, 116);
+    }
+    .form-map {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .contact-form {
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    .contact-form button {
+      width: 100px;
+      padding: 10px;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .map {
+      width: 48%;
+    }
+    iframe {
+      width: 100%;
+      height: 240px;
+      border: 0;
+    }
+    .social-icons {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 5px;
+      text-decoration: none;
+    }
+    .social-icons img {
+      width: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>CONTACT US</h2>
+  <div class="contact-info">
+    <div class="contact-details">
+      <p><strong>ADDRESS :</strong></p>
+      <p>Saint Marco Street, 6th floor,<br>surat, 123456.</p>
+      <p><i>📞</i> +91 1234975790</p>
+      <p><i>📧</i> <a href="mailto:example@gmail.com">ex@gmail.com</a></p>
+    </div>
+    <div class="map-icon">
+      <p style="font-size: 30px;">📍</p>
+    </div>
+  </div>
+
+  <div class="form-map">
+    <form class="contact-form">
+      <input type="text" placeholder="Name :">
+      <input type="text" placeholder="Company :">
+      <input type="email" placeholder="Email :">
+      <input type="text" placeholder="Mobile :">
+      <textarea placeholder="Message :"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.1062642948104!2d72.9032486!3d20.94824729999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f78bb90491c5%3A0x78226de638a90e63!2sKamal%20Park%20society!5e0!3m2!1sen!2sin!4v1744549243339!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="social-icons">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="Twitter"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+  </div>
+</div>
+
+</body>
+</html>
